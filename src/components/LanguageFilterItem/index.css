@@ -1,0 +1,38 @@
+/* List container handled by parent (optional, for layout) */
+.nav-items ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 12px;
+}
+
+/* Filter button styles */
+.filter-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+/* Hover effect */
+.filter-button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Active button styling */
+.filter-button.active {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-color: #0b69ff;
+  font-weight: 600;
+}
+.eachbutton {
+  margin: 8px;
+}

@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.github-repo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-items {
+  list-style-type: none;
+  display: flex;
+}
+.nav-items {
+  display: flex;
+  padding: 15px;
+}
+.failure-view {
+  height: 350px;
+  width: 350px;
+}
+.repos-details {
+  display: flex;
+  flex-wrap: wrap;
+}
+.popular-heading {
+  font-family: 'Lobster';
+}
